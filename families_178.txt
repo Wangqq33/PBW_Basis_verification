@@ -1,0 +1,178 @@
+  1: dtt | rows a=b=c | cols u=v=w
+  2: dtt | rows a=b=c | cols u=v<w
+  3: dtt | rows a=b=c | cols u<v=w
+  4: dtt | rows a=b=c | cols u<v<w
+  5: dtt | rows a=b=c | cols v=w<u
+  6: dtt | rows a=b=c | cols v<u=w
+  7: dtt | rows a=b=c | cols v<u<w
+  8: dtt | rows a=b=c | cols v<w<u
+  9: dtt | rows a=b<c | cols u=v=w
+ 10: dtt | rows a=b<c | cols u=v<w
+ 11: dtt | rows a=b<c | cols u=w<v
+ 12: dtt | rows a=b<c | cols u<v=w
+ 13: dtt | rows a=b<c | cols u<v<w
+ 14: dtt | rows a=b<c | cols u<w<v
+ 15: dtt | rows a=b<c | cols v=w<u
+ 16: dtt | rows a=b<c | cols v<u=w
+ 17: dtt | rows a=b<c | cols v<u<w
+ 18: dtt | rows a=b<c | cols w<u=v
+ 19: dtt | rows a=b<c | cols w<u<v
+ 20: dtt | rows a=b<c | cols v<w<u
+ 21: dtt | rows a=b<c | cols w<v<u
+ 22: dtt | rows a<b=c | cols u=v=w
+ 23: dtt | rows a<b=c | cols u=v<w
+ 24: dtt | rows a<b=c | cols u<v=w
+ 25: dtt | rows a<b=c | cols u<v<w
+ 26: dtt | rows a<b=c | cols v=w<u
+ 27: dtt | rows a<b=c | cols v<u=w
+ 28: dtt | rows a<b=c | cols v<u<w
+ 29: dtt | rows a<b=c | cols v<w<u
+ 30: dtt | rows a<b<c | cols u=v=w
+ 31: dtt | rows a<b<c | cols u=v<w
+ 32: dtt | rows a<b<c | cols u=w<v
+ 33: dtt | rows a<b<c | cols u<v=w
+ 34: dtt | rows a<b<c | cols u<v<w
+ 35: dtt | rows a<b<c | cols u<w<v
+ 36: dtt | rows a<b<c | cols v=w<u
+ 37: dtt | rows a<b<c | cols v<u=w
+ 38: dtt | rows a<b<c | cols v<u<w
+ 39: dtt | rows a<b<c | cols w<u=v
+ 40: dtt | rows a<b<c | cols w<u<v
+ 41: dtt | rows a<b<c | cols v<w<u
+ 42: dtt | rows a<b<c | cols w<v<u
+ 43: dtt | rows b=c<a | cols u=v=w
+ 44: dtt | rows b=c<a | cols u=v<w
+ 45: dtt | rows b=c<a | cols u<v=w
+ 46: dtt | rows b=c<a | cols u<v<w
+ 47: dtt | rows b=c<a | cols v=w<u
+ 48: dtt | rows b=c<a | cols v<u=w
+ 49: dtt | rows b=c<a | cols v<u<w
+ 50: dtt | rows b=c<a | cols v<w<u
+ 51: dtt | rows b<a=c | cols u=v=w
+ 52: dtt | rows b<a=c | cols u=v<w
+ 53: dtt | rows b<a=c | cols u=w<v
+ 54: dtt | rows b<a=c | cols u<v=w
+ 55: dtt | rows b<a=c | cols u<v<w
+ 56: dtt | rows b<a=c | cols u<w<v
+ 57: dtt | rows b<a=c | cols v=w<u
+ 58: dtt | rows b<a=c | cols v<u=w
+ 59: dtt | rows b<a=c | cols v<u<w
+ 60: dtt | rows b<a=c | cols w<u=v
+ 61: dtt | rows b<a=c | cols w<u<v
+ 62: dtt | rows b<a=c | cols v<w<u
+ 63: dtt | rows b<a=c | cols w<v<u
+ 64: dtt | rows b<a<c | cols u=v=w
+ 65: dtt | rows b<a<c | cols u=v<w
+ 66: dtt | rows b<a<c | cols u=w<v
+ 67: dtt | rows b<a<c | cols u<v=w
+ 68: dtt | rows b<a<c | cols u<v<w
+ 69: dtt | rows b<a<c | cols u<w<v
+ 70: dtt | rows b<a<c | cols v=w<u
+ 71: dtt | rows b<a<c | cols v<u=w
+ 72: dtt | rows b<a<c | cols v<u<w
+ 73: dtt | rows b<a<c | cols w<u=v
+ 74: dtt | rows b<a<c | cols w<u<v
+ 75: dtt | rows b<a<c | cols v<w<u
+ 76: dtt | rows b<a<c | cols w<v<u
+ 77: dtt | rows b<c<a | cols u=v=w
+ 78: dtt | rows b<c<a | cols u=v<w
+ 79: dtt | rows b<c<a | cols u=w<v
+ 80: dtt | rows b<c<a | cols u<v=w
+ 81: dtt | rows b<c<a | cols u<v<w
+ 82: dtt | rows b<c<a | cols u<w<v
+ 83: dtt | rows b<c<a | cols v=w<u
+ 84: dtt | rows b<c<a | cols v<u=w
+ 85: dtt | rows b<c<a | cols v<u<w
+ 86: dtt | rows b<c<a | cols w<u=v
+ 87: dtt | rows b<c<a | cols w<u<v
+ 88: dtt | rows b<c<a | cols v<w<u
+ 89: dtt | rows b<c<a | cols w<v<u
+ 90: ddt | rows a=b=c | cols u=v=w
+ 91: ddt | rows a=b=c | cols u=v<w
+ 92: ddt | rows a=b=c | cols v=w<u
+ 93: ddt | rows a=b=c | cols v<u=w
+ 94: ddt | rows a=b=c | cols v<u<w
+ 95: ddt | rows a=b=c | cols w<u=v
+ 96: ddt | rows a=b=c | cols v<w<u
+ 97: ddt | rows a=b=c | cols w<v<u
+ 98: ddt | rows a=b<c | cols u=v=w
+ 99: ddt | rows a=b<c | cols u=v<w
+100: ddt | rows a=b<c | cols v=w<u
+101: ddt | rows a=b<c | cols v<u=w
+102: ddt | rows a=b<c | cols v<u<w
+103: ddt | rows a=b<c | cols w<u=v
+104: ddt | rows a=b<c | cols v<w<u
+105: ddt | rows a=b<c | cols w<v<u
+106: ddt | rows b=c<a | cols u=v=w
+107: ddt | rows b=c<a | cols u=v<w
+108: ddt | rows b=c<a | cols u=w<v
+109: ddt | rows b=c<a | cols u<v=w
+110: ddt | rows b=c<a | cols u<v<w
+111: ddt | rows b=c<a | cols u<w<v
+112: ddt | rows b=c<a | cols v=w<u
+113: ddt | rows b=c<a | cols v<u=w
+114: ddt | rows b=c<a | cols v<u<w
+115: ddt | rows b=c<a | cols w<u=v
+116: ddt | rows b=c<a | cols w<u<v
+117: ddt | rows b=c<a | cols v<w<u
+118: ddt | rows b=c<a | cols w<v<u
+119: ddt | rows b<a=c | cols u=v=w
+120: ddt | rows b<a=c | cols u=v<w
+121: ddt | rows b<a=c | cols u=w<v
+122: ddt | rows b<a=c | cols u<v=w
+123: ddt | rows b<a=c | cols u<v<w
+124: ddt | rows b<a=c | cols u<w<v
+125: ddt | rows b<a=c | cols v=w<u
+126: ddt | rows b<a=c | cols v<u=w
+127: ddt | rows b<a=c | cols v<u<w
+128: ddt | rows b<a=c | cols w<u=v
+129: ddt | rows b<a=c | cols w<u<v
+130: ddt | rows b<a=c | cols v<w<u
+131: ddt | rows b<a=c | cols w<v<u
+132: ddt | rows b<a<c | cols u=v=w
+133: ddt | rows b<a<c | cols u=v<w
+134: ddt | rows b<a<c | cols u=w<v
+135: ddt | rows b<a<c | cols u<v=w
+136: ddt | rows b<a<c | cols u<v<w
+137: ddt | rows b<a<c | cols u<w<v
+138: ddt | rows b<a<c | cols v=w<u
+139: ddt | rows b<a<c | cols v<u=w
+140: ddt | rows b<a<c | cols v<u<w
+141: ddt | rows b<a<c | cols w<u=v
+142: ddt | rows b<a<c | cols w<u<v
+143: ddt | rows b<a<c | cols v<w<u
+144: ddt | rows b<a<c | cols w<v<u
+145: ddt | rows c<a=b | cols u=v=w
+146: ddt | rows c<a=b | cols u=v<w
+147: ddt | rows c<a=b | cols v=w<u
+148: ddt | rows c<a=b | cols v<u=w
+149: ddt | rows c<a=b | cols v<u<w
+150: ddt | rows c<a=b | cols w<u=v
+151: ddt | rows c<a=b | cols v<w<u
+152: ddt | rows c<a=b | cols w<v<u
+153: ddt | rows b<c<a | cols u=v=w
+154: ddt | rows b<c<a | cols u=v<w
+155: ddt | rows b<c<a | cols u=w<v
+156: ddt | rows b<c<a | cols u<v=w
+157: ddt | rows b<c<a | cols u<v<w
+158: ddt | rows b<c<a | cols u<w<v
+159: ddt | rows b<c<a | cols v=w<u
+160: ddt | rows b<c<a | cols v<u=w
+161: ddt | rows b<c<a | cols v<u<w
+162: ddt | rows b<c<a | cols w<u=v
+163: ddt | rows b<c<a | cols w<u<v
+164: ddt | rows b<c<a | cols v<w<u
+165: ddt | rows b<c<a | cols w<v<u
+166: ddt | rows c<b<a | cols u=v=w
+167: ddt | rows c<b<a | cols u=v<w
+168: ddt | rows c<b<a | cols u=w<v
+169: ddt | rows c<b<a | cols u<v=w
+170: ddt | rows c<b<a | cols u<v<w
+171: ddt | rows c<b<a | cols u<w<v
+172: ddt | rows c<b<a | cols v=w<u
+173: ddt | rows c<b<a | cols v<u=w
+174: ddt | rows c<b<a | cols v<u<w
+175: ddt | rows c<b<a | cols w<u=v
+176: ddt | rows c<b<a | cols w<u<v
+177: ddt | rows c<b<a | cols v<w<u
+178: ddt | rows c<b<a | cols w<v<u
